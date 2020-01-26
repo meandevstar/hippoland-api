@@ -63,3 +63,5 @@ target/
 
 #virtualENV
 my_project
+
+**/.DS_Store

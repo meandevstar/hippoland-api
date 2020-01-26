@@ -18,14 +18,18 @@ Hippoland Product Scraper API written in Django
 
 ### Install 
 
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
 ### Usage
   - Run API server
-    cd scraper
-    python3 -B manage.py runserver
+    ```bash
+      cd scraper
+      python3 -B manage.py runserver
+    ```
   
   - Run scraper script
-    scrapy runspider -a page=1,limit=36 scraper/scraper.py
+    ```bash
+      scrapy runspider -a page=1,limit=36 scraper/scraper.py
+    ```
 
     Options: `page` for crawl start point, `limit` for crawl pagination page size 
